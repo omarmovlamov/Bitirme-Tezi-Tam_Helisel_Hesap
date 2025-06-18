@@ -46,7 +46,7 @@ export default function Home() {
                 paddingRight: "5px",
               }}
               onClick={() =>
-                window.open("https://github.com/senin-github-linkin", "_blank")
+                window.open("https://github.com/omarmovlamov/Bitirme-Tezi-Tam_Helisel_Hesap", "_blank")
               }
               className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700"
             >
