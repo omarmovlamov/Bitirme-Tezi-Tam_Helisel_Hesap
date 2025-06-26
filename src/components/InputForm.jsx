@@ -621,7 +621,7 @@ function InputForm() {
           </div>
           <div className="fi_0_hesaplari">
             <strong>
-              <h3>φ = 0 için kesit tesirleri</h3>
+              <h3><u>φ = 0 için kesit tesirleri</u></h3>
             </strong>
             <p>N= q * r * sin α * φ - cos α * X5 * sin φ / r = {N} KN</p>
             <p>Qx = q * r * cos α * φ + sin α * X5 * sin φ / r = {Qx} KN</p>
@@ -641,7 +641,7 @@ function InputForm() {
           </div>
           <div className="fi_1,571_hesaplari">
             <strong>
-              <h3>φ = π/2 = 1,571 için kesit tesirleri</h3>
+              <h3><u>φ = π/2 = 1,571 için kesit tesirleri</u></h3>
             </strong>
             <p>
               N= q * r * sin α * φ - cos α * X5 * sin φ / r = {N1.toFixed(2)} KN
@@ -666,7 +666,7 @@ function InputForm() {
           </div>
           <div className="fi_0,785_hesaplari">
             <strong>
-              <h3>φ = π/4 = 0,785 için kesit tesirleri</h3>
+              <h3> <u>φ = π/4 = 0,785 için kesit tesirleri</u></h3>
             </strong>
             <p>
               N= q * r * sin α * φ - cos α * X5 * sin φ / r = {N2.toFixed(2)} KN
@@ -1044,7 +1044,7 @@ function InputForm() {
           </div>
           <div className="Beton_Celik_degerleri">
             <strong>
-              <h3>Beton ve çelik karakteristik değerleri : </h3>
+              <h3><u>Beton ve çelik karakteristik değerleri : </u></h3>
             </strong>
             <p>
               Fck = C =
@@ -1118,7 +1118,7 @@ function InputForm() {
           </div>
           <div className="Ust_Uc_Betonarme_Hesabi">
             <strong>
-              <h3>Üst ankastre uçta betonarme hesap</h3>
+              <h3><u>Üst ankastre uçta betonarme hesap</u></h3>
             </strong>
             <p>Üst uçta çekme</p>
             <p>
@@ -1174,7 +1174,7 @@ function InputForm() {
           </div>
           <div className="Alt_Uc_Betonarme_Hesabi">
             <strong>
-              <h3>Alt ankastre uçta betonarme hesap</h3>
+              <h3><u>Alt ankastre uçta betonarme hesap</u></h3>
             </strong>
             <p>Alt uçta çekme</p>
             <p>
@@ -1224,7 +1224,7 @@ function InputForm() {
             </p>
           </div>
           <div className="Burulma_Hesabi">
-            <h3>Burulma Hesabı </h3>
+            <h3><u>Burulma Hesabı </u></h3>
             <p>Td = {Td_degeri} </p>
             <p>Vd = {Vd_degeri} </p>
             <p>n = {adet} adet</p>
