@@ -1109,6 +1109,7 @@ function InputForm() {
               <input
                 type="number"
                 className="inline-block w-auto px-1 py-1 text-sm border-0 bg-yellow-200 border-gray-300 rounded"
+                style={{ width: `${input1Value.length + 4}ch` }}
                 value={inputpas_PayiValue}
                 onChange={(e) => setInputpas_PayiValue(e.target.value)}
                 placeholder=""
