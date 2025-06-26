@@ -1224,6 +1224,7 @@ function InputForm() {
             </p>
           </div>
           <div className="Burulma_Hesabi">
+            <h3>Td = Burulma Hesabı </h3>
             <p>Td = {Td_degeri} </p>
             <p>Vd = {Vd_degeri} </p>
             <p>n = {adet} adet</p>
