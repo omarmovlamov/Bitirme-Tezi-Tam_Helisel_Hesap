@@ -164,7 +164,7 @@ function InputForm() {
     (X5 * Math.cos(aRad) + X6 * Math.sin(aRad)) * Math.sin(fi2_Durumu) +
     X5 * Math.sin(aRad) * Math.tan(aRad) * fi2_Durumu * Math.cos(fi2_Durumu);
 
-  //!  φ = 1,571 durumu
+  //!  φ = 0,785 durumu
 
   const fi3_Durumu = 0.785;
   const N2 =
